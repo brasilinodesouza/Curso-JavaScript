@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title> Evento Alteracao </title>
+
+        
+        <!--JS-->
+        <script>
+            
+            //funcao 
+            function mensagem(){
+                //obter o curso
+                var curso = document.getElementById("cursos").value;
+                //exibir o curso selecionado
+                alert(curso);
+            }
+
+
+
+
+        </script>
+
+
+    </head>
+    <body>
+
+        <select onchange="mensagem()" id="cursos">
+            <option>Escolha seu curso</option>
+            <option>HMTL</option>
+            <option>CSS</option>
+            <option>JS</option>
+
+
+        </select>
+
+
+    </body>
+</html>
