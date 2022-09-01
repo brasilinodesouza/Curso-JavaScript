@@ -1,0 +1,37 @@
+body{
+    margin: 100px 300px 10px 700px;
+    background-color: rgb(82, 197, 172);
+    display: inline-block
+}
+
+div h1{
+    text-align: center;
+}
+.cadastro{
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 30px 30px;
+}
+#nome{
+    width: 300px;
+}
+
+#email{
+    width: 300px;
+}
+
+#mensagem{
+    width: 300px;
+    height: 200px;
+}
+
+.escolher{
+    width: 300px;
+
+}
+
+.botao{
+    margin-left: 35%;
+    font-size: 20px;
+    
+}
