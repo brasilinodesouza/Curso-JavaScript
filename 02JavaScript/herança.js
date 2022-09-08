@@ -4,11 +4,6 @@ class Carro{
     nivelCombustivel = 100
     cor;
 
-    constructor(){
-        
-        
-    }
-
     ligar(){
         this.ligado = true;
     }
@@ -27,11 +22,6 @@ class CarroQuebrado extends Carro{
     }
     
 }
-
-
-
-
-
 
 let carro = new Carro()
 let carro2 = Object.create(carro)
